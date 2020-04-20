@@ -1,0 +1,84 @@
+.formWrapper {
+  width: 100%;
+}
+.registerMain {
+  position: relative;
+  height: 650px;
+  margin: 0 auto;
+  background-color: #f7f7ff;
+  border-radius: 100%/40%; /* arched side*/
+  border-top-left-radius: 0%;
+  border-top-right-radius: 0%;
+  z-index: 1;
+}
+.registerMain h1 {
+  color: #3c476c;
+  font-size: 42px;
+}
+
+.form {
+  width: 25em;
+  display: flex;
+  flex-direction: column;
+  margin: -20px auto 40px auto;
+  text-align: left;
+}
+.form p {
+  color: #636c89;
+}
+.form p a {
+  color: #6c6ce5;
+  text-decoration: none;
+}
+.form button {
+  height: 50px;
+  border: none;
+  background: #6c6ce5;
+  border-radius: 9px;
+  letter-spacing: 0.42px;
+  color: #ffffff;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 15px;
+}
+.form label {
+  color: #3c476ccc;
+  font-weight: 700;
+  font-size: 19px;
+}
+.form input {
+  margin: 3px 1px;
+  height: 45px;
+  width: 87%;
+  border: 1px solid #5656b7;
+  box-shadow: 3px 3px 6px #cdd3f4;
+  border-radius: 11px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
+
+/* input container, input and icon */
+.inputContainer {
+  margin: 10px 0px;
+}
+.inputIcon {
+  position: relative;
+}
+
+.inputIcon i {
+  position: absolute;
+  top: 15px;
+  left: 18px;
+  color: #5656b7;
+  font-size: 21px;
+}
+.inputIcon input {
+  padding-left: 50px;
+}
+.inputIcon input::placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #33395180;
+  letter-spacing: 0px;
+  font-size: 14px;
+}

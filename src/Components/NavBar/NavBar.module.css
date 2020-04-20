@@ -1,0 +1,42 @@
+/* navigation bar */
+nav {
+  position: relative;
+  background: #f7f7ff;
+  display: flex;
+  justify-content: space-around;
+  padding: 35px 0px;
+  align-items: center;
+  /*margin: 0 auto;*/
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  position: relative;
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 17px;
+  color: #727c9b;
+  font-weight: 700;
+  letter-spacing: 0.11px;
+}
+/* logo */
+.Logo {
+  height: 6vh;
+  margin-right: 35px;
+}
+
+/* button group*/
+.buttons {
+  align-items: center;
+  height: 15px;
+  width: 18em;
+  justify-content: space-evenly;
+  display: flex;
+}

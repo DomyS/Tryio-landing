@@ -1,0 +1,76 @@
+.footerMain {
+  position: relative;
+  height: 100vh;
+  background: #3c476c;
+  margin-top: -10%;
+}
+/* footer with text */
+.withText {
+  position: relative;
+  margin: 0 auto;
+  top: 250px;
+  height: 50vh;
+  max-width: 60em;
+  color: #ffffff;
+}
+/* left footer */
+.leftFooter {
+  position: relative;
+  max-width: 32em;
+  float: left;
+  text-align: left;
+}
+.leftFooter h1 {
+  font-size: 40px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1.1px;
+}
+.leftFooter h5 {
+  opacity: 0.8;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.44px;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* right footer */
+.rightFooter {
+  max-width: 28em;
+  float: right;
+}
+.rightFooter img {
+  height: 50vh;
+}
+
+/* size of hr and page down it */
+.footerBottom {
+  max-width: 75em;
+  margin: 0 auto;
+  position: relative;
+  color: #ffffff;
+  top: 280px;
+}
+.footerBottom hr {
+  border-top: none;
+}
+/* text under the hr */
+.footerBottomMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footerBottomMenu ul li {
+  position: relative;
+  list-style: none;
+  display: inline-block;
+  align-items: center;
+}
+.footerBottomMenu ul li a {
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 17px;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.11px;
+}

@@ -1,0 +1,72 @@
+.button {
+  text-decoration: none !important;
+  font-weight: 700;
+  letter-spacing: 0.11px;
+  border-radius: 9px;
+  font-family: "Varela Round", sans-serif;
+}
+
+/* with background */
+.withBackground {
+  background: transparent linear-gradient(166deg, #6c6ce5 0%, #363673 100%) 0%
+    0% no-repeat padding-box;
+  color: #ffffff;
+  border: 2px solid transparent;
+  padding: 15px 60px;
+}
+.withBackground:hover {
+  background: #f7f7ff;
+  color: #333950;
+  padding: 15px 60px;
+  border: 2px solid #6c6ce5;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* hover in navbar */
+.navBar {
+  background: transparent linear-gradient(166deg, #6c6ce5 0%, #363673 100%) 0%
+    0% no-repeat padding-box;
+  color: #ffffff;
+  padding: 8px 28px;
+  box-shadow: 3px 3px 3px #00000029;
+}
+.navBar:hover {
+  background: #f7f7ff;
+  padding: 6px 26px;
+  color: #333950;
+  border: 2px solid #4e4ea7;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  box-shadow: 3px 3px 3px #00000029 inset;
+}
+/*footer button hover */
+.footer {
+  background: #fee9c5;
+  color: #3c476c;
+  padding: 16px 55px;
+}
+.footer:hover {
+  background: #3c476c;
+  color: #fee9c5;
+  padding: 14px 53px;
+  border: 2px solid #fee9c5;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* les mer button icon css */
+
+span i {
+  position: relative;
+  right: 15px;
+}

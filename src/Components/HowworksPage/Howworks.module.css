@@ -1,0 +1,80 @@
+.HowworksMain {
+  position: relative;
+  margin-top: 50px;
+  height: 770px;
+  background: #f7f7ff;
+  margin: -170px auto;
+  border-radius: 100%/25%;
+  z-index: 1;
+}
+
+/*text push down */
+.HowworksText {
+  position: relative;
+  top: 60px;
+}
+.HowworksMain h1,
+h2 {
+  color: #3c476c;
+}
+.HowworksMain h4,
+p {
+  color: #3c476c;
+  font-weight: 700;
+  opacity: 0.8;
+}
+.HowworksMain h4 {
+  font-size: 22px;
+}
+.HowworksMain p {
+  font-size: 16px;
+}
+
+/*  2 Lists */
+.IconsList {
+  display: flex;
+  max-width: 65em;
+  margin: 0 auto;
+}
+/* icon list*/
+.icons {
+  float: left;
+  max-width: 10em;
+  font-weight: 700;
+  color: #3b466b;
+  z-index: 1;
+}
+.icons ul li {
+  list-style-type: none;
+  background: #f7dcbc;
+  font-size: 25px;
+  border-radius: 50px;
+  margin: 42px 0px;
+  padding: 22px 20px;
+}
+.clockIcon {
+  padding: 17px 20px !important;
+  font-size: 42px;
+}
+
+/* text list */
+.list {
+  max-width: 70em;
+  text-align: left;
+  line-height: 15px;
+  margin: -22px -5px;
+  z-index: 0;
+}
+.list ul {
+  margin: 0px -31px;
+  border-left: 1px solid #727c9b;
+  z-index: 0;
+}
+.list ul li {
+  list-style-type: none;
+  line-height: 5px;
+  margin: 89px 25px;
+}
+.list ul li h2 {
+  margin-top: 15px;
+}

@@ -1,0 +1,52 @@
+.mainHeader {
+  position: relative;
+  max-width: 74em;
+  height: 600px;
+  background: #f7f7ff;
+  margin: 15px auto;
+}
+/* left styling */
+.headerLeft {
+  background: #f7f7ff;
+  width: 35em;
+  height: 35em;
+  float: left;
+  text-align: left;
+}
+.headerLeft h1 {
+  color: #3c476c;
+  font-size: 58px;
+  letter-spacing: 1.6px;
+  opacity: 1;
+}
+.headerLeft p {
+  color: #3c476ccc;
+  font-weight: 700;
+  letter-spacing: 0.48px;
+  font-size: 16px;
+  line-height: 28px;
+}
+.headerLeft h3 {
+  color: #3c476c;
+  font-size: 28px;
+  margin-top: 45px;
+}
+
+/* buttons stylling */
+.buttonsHeader {
+  margin-top: 45px;
+  width: 29em;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+/* right */
+.headerRight {
+  background: #f7f7ff;
+  width: 38em;
+  float: right;
+}
+.headerImage {
+  height: 530px;
+}

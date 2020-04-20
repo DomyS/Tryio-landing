@@ -1,0 +1,57 @@
+/* main css */
+.WithusMain {
+  position: relative;
+  background: #ededf7;
+  height: 670px;
+}
+.WithusMain h2 {
+  position: relative;
+  color: #3c476c;
+  font-size: 33px;
+  top: 55px;
+}
+.WithusWrapper {
+  max-width: 78em;
+  margin: 0 auto;
+}
+/* left part */
+.WithusLeft {
+  float: left;
+  width: 40em;
+}
+.WithusImage {
+  height: 50vh;
+  margin-top: 55px;
+}
+/* right part */
+.WithusRight {
+  float: right;
+  height: 350px;
+  width: 38em;
+  text-align: left;
+  margin-top: 5%;
+}
+.WithusRight h3 {
+  color: #3c476c;
+  font-size: 26px;
+  margin-left: 40px;
+}
+
+.WithusRight ul li {
+  list-style-type: none;
+  color: #3c476c;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 0px;
+}
+.WithusRight li span {
+  margin: 15px;
+}
+.WithusRight ul li:before {
+  font-family: FontAwesome;
+  content: "\f00c";
+  color: #6c6ce5;
+  border-radius: 13px;
+  background: #d9d9f9;
+  padding: 7px;
+}
