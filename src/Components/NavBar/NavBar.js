@@ -1,6 +1,5 @@
 import React from "react";
 import Button from "../Button";
-import RegistrationPage from "../RegistrationPage";
 import style from "./NavBar.module.css";
 import Logo from "../../Images/Logo3.png";
 

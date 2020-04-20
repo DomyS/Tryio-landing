@@ -1,8 +1,8 @@
 import React from "react";
-import style from "./WithusPage.module.css";
+import style from "./Withus.module.css";
 import people from "../../Images/Image2.png";
 
-function WithusPage() {
+function Withus() {
   return (
     <div className={style.WithusMain}>
       <h2>Effektiviser sensoriske tester med oss!</h2>
@@ -28,4 +28,4 @@ function WithusPage() {
     </div>
   );
 }
-export default WithusPage;
+export default Withus;

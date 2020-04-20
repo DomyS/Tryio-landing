@@ -3,7 +3,7 @@ import style from "./Footer.module.css";
 import footerImage from "../../Images/Image3.png";
 import Button from "../Button";
 
-const Footer = ({ withText, marginTop, position, top, height }) => {
+const Footer = ({ withText, top, height }) => {
   return (
     <div className={style.footerMain} style={{ height: height }}>
       {withText && (

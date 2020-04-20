@@ -1,16 +1,16 @@
 import React from "react";
 import style from "./HomePage.module.css";
 import Header from "../Header";
-import WithusPage from "../WithusPage";
-import HowworksPage from "../HowworksPage";
+import Withus from "../Withus";
+import Howworks from "../Howworks";
 import Footer from "../Footer";
 
 const HomePage = () => {
   return (
     <div className={style.HomePageMain}>
       <Header />
-      <WithusPage />
-      <HowworksPage />
+      <Withus />
+      <Howworks />
       <Footer withText />
     </div>
   );

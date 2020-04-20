@@ -42,7 +42,7 @@ const Button = ({
       >
         {withIcon && (
           <span>
-            <i class="fa fa-long-arrow-down"></i>
+            <i className="fa fa-long-arrow-down"></i>
           </span>
         )}
         {buttonText}

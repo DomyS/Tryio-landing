@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./Howworks.module.css";
 
-function HowworksPage() {
+function Howworks() {
   return (
     <div className={style.HowworksMain}>
       <div className={style.HowworksText}>
@@ -14,7 +14,10 @@ function HowworksPage() {
                 <span>1</span>
               </li>
               <li className={style.clockIcon}>
-                <span class="fa fa-clock-o" style={{ fontSize: "40px" }}></span>
+                <span
+                  className="fa fa-clock-o"
+                  style={{ fontSize: "40px" }}
+                ></span>
               </li>
               <li>
                 <span>2</span>
@@ -63,4 +66,4 @@ function HowworksPage() {
   );
 }
 
-export default HowworksPage;
+export default Howworks;
