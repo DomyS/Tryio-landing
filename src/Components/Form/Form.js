@@ -13,10 +13,7 @@ class Form extends Component {
 
   handleSubmit = (event) => {
     event.preventDefault();
-    console.log("email :" + this.state.email);
-    console.log("pass : " + this.state.password);
-    console.log("name : " + this.state.name);
-    console.log("organization: " + this.state.organization);
+    event.target.reset();
     const data = {
       name: this.state.name,
       email: this.state.email,
@@ -24,16 +21,12 @@ class Form extends Component {
       organization: this.state.organization,
     };
 
-    let headers = new Headers();
-
-    headers.append("Content-Type", "application/json");
-    headers.append("Accept", "application/json");
-    headers.append("Origin", "http://localhost:3000");
-
     fetch("https://europe-west2-tryio-6a1d3.cloudfunctions.net/api/signup", {
       method: "POST",
       body: JSON.stringify(data),
-      headers: headers,
+      headers: {
+        "Content-type": "application/json",
+      },
     })
       .then((res) => res.json())
       .catch((error) => console.error("Error:", error))
@@ -56,6 +49,7 @@ class Form extends Component {
                   name="email"
                   placeholder="tester@tryio.no"
                   onChange={this.handleChange}
+                  required
                 />
                 <i className="fa fa-envelope"></i>
               </div>
@@ -69,6 +63,7 @@ class Form extends Component {
                   name="password"
                   placeholder="Lag passordet ditt"
                   onChange={this.handleChange}
+                  required
                 />
                 <i className="fa fa-briefcase"></i>
               </div>
@@ -82,6 +77,7 @@ class Form extends Component {
                   name="name"
                   placeholder="Navnet ditt"
                   onChange={this.handleChange}
+                  required
                 />
                 <i className="fa fa-user"></i>
               </div>
@@ -95,6 +91,7 @@ class Form extends Component {
                   name="organization"
                   placeholder="Navnet til selskapet dittt"
                   onChange={this.handleChange}
+                  required
                 />
                 <i className="fa fa-home"></i>
               </div>
