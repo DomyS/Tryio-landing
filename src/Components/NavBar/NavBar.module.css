@@ -40,3 +40,57 @@ nav ul li a {
   justify-content: space-evenly;
   display: flex;
 }
+
+/* responsive */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  nav ul li a {
+    font-size: 13px;
+  }
+  .Logo {
+    height: 3vh;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  nav ul li a {
+    font-size: 13px;
+  }
+  .Logo {
+    height: 4.5vh;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  nav ul li a {
+    font-size: 15px;
+  }
+  .Logo {
+    height: 5vh;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  nav ul li a {
+    font-size: 17px;
+  }
+  .Logo {
+    height: 6vh;
+    margin-right: 35px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .Logo {
+    height: 6vh;
+    margin-right: 35px;
+  }
+  nav ul li a {
+    font-size: 17px;
+  }
+}

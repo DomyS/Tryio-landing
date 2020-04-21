@@ -55,3 +55,134 @@
   background: #d9d9f9;
   padding: 7px;
 }
+
+/* responsive */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .WithusMain {
+    height: 800px;
+  }
+  .WithusMain h2 {
+    font-size: 20px;
+  }
+  .WithusWrapper {
+    max-width: 35em;
+    margin: 0 auto;
+  }
+  .WithusImage {
+    height: 25vh;
+  }
+  .WithusLeft {
+    width: 22em;
+  }
+  .WithusRight {
+    width: 30em;
+    margin: 0 auto;
+  }
+  .WithusRight h3 {
+    font-size: 22px;
+  }
+  .WithusRight ul li {
+    font-size: 18px;
+    padding: 20px 0px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .WithusWrapper {
+    max-width: 50em;
+    margin: 0 auto;
+  }
+  .WithusImage {
+    height: 25vh;
+  }
+  .WithusLeft {
+    width: 20em;
+  }
+  .WithusRight {
+    width: 25em;
+  }
+  .WithusRight h3 {
+    font-size: 18px;
+  }
+  .WithusRight ul li {
+    font-size: 16px;
+    padding: 20px 0px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .WithusWrapper {
+    max-width: 58em;
+    margin: 0 auto;
+  }
+  .WithusImage {
+    height: 38vh;
+    margin-top: 55px;
+  }
+  .WithusLeft {
+    width: 27em;
+  }
+  .WithusRight {
+    width: 27em;
+  }
+  .WithusRight h3 {
+    font-size: 19px;
+  }
+  .WithusRight ul li {
+    font-size: 17px;
+    padding: 20px 0px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .WithusWrapper {
+    max-width: 68em;
+    margin: 0 auto;
+  }
+  .WithusImage {
+    height: 40vh;
+    margin-top: 55px;
+  }
+  .WithusLeft {
+    width: 32em;
+  }
+  .WithusRight {
+    width: 35em;
+  }
+  .WithusRight h3 {
+    font-size: 23px;
+  }
+  .WithusRight ul li {
+    font-size: 18px;
+    padding: 20px 0px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .WithusWrapper {
+    max-width: 78em;
+    margin: 0 auto;
+  }
+  .WithusImage {
+    height: 50vh;
+  }
+  .WithusLeft {
+    width: 40em;
+  }
+  .WithusRight {
+    width: 38em;
+  }
+  .WithusRight h3 {
+    font-size: 26px;
+  }
+  .WithusRight ul li {
+    font-size: 20px;
+    padding: 20px 0px;
+  }
+}

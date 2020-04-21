@@ -98,7 +98,6 @@ class Form extends Component {
             </div>
 
             <input type="submit" value="Registrer meg" />
-
             <p>
               Ved å registerer deg bekrefter du at du godtar Tryions{" "}
               <a href="/">vilkår</a> og

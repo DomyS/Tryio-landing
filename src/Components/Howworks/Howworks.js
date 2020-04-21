@@ -39,24 +39,31 @@ function Howworks() {
                 </div>
               </li>
               <li>
-                <h2>Vent på testerne</h2>
-                <p>
-                  Vi tar oss av rekrutteringen. Våre smarte algoritmer skal
-                  finne riktig målgruppe for deg i våre brukerdatabaser
-                </p>
+                <div className={style.listItem}>
+                  <h2>Vent på testerne</h2>
+                  <p>
+                    Vi tar oss av rekrutteringen. Våre smarte algoritmer skal
+                    finne riktig målgruppe for deg i våre brukerdatabaser
+                  </p>
+                </div>
               </li>
               <li>
-                <h2>Gjennomføre forbrukertesting</h2>
-                <p>
-                  Inviter testere til testlokaler eller sende produkter til dem
-                </p>
+                <div className={style.listItem}>
+                  <h2>Gjennomføre forbrukertesting</h2>
+                  <p>
+                    Inviter testere til testlokaler eller sende produkter til
+                    dem
+                  </p>
+                </div>
               </li>
               <li>
-                <h2>Få tilbakemeldinger</h2>
-                <p>
-                  For tilbakemeldinger kan du enten bruke våre spørreskjemaer
-                  eller lag din egen
-                </p>
+                <div className={style.listItem}>
+                  <h2>Få tilbakemeldinger</h2>
+                  <p>
+                    For tilbakemeldinger kan du enten bruke våre spørreskjemaer
+                    eller lag din egen
+                  </p>
+                </div>
               </li>
             </ul>
           </div>

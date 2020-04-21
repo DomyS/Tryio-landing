@@ -52,16 +52,11 @@ p {
   margin: 42px 0px;
   padding: 22px 20px;
 }
-.clockIcon {
-  padding: 17px 20px !important;
-  font-size: 42px;
-}
 
 /* text list */
 .list {
   max-width: 70em;
   text-align: left;
-  line-height: 15px;
   margin: -22px -5px;
   z-index: 0;
 }
@@ -77,4 +72,219 @@ p {
 }
 .list ul li h2 {
   margin-top: 15px;
+}
+
+/* responsive */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .IconsList {
+    max-width: 25em;
+  }
+  .HowworksMain {
+    height: 770px;
+  }
+  .HowworksMain h1 {
+    font-size: 18px;
+  }
+  .HowworksMain h4 {
+    font-size: 15px;
+  }
+  .listItem p {
+    position: relative;
+    line-height: 16px;
+    font-size: 13px;
+  }
+  .listItem h2 {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .list {
+    max-width: 70em;
+    margin: 4px -2px;
+  }
+  .list ul {
+    max-width: 16em;
+    margin: 60px -29px;
+  }
+  .list ul li {
+    margin: 30px 25px;
+  }
+  .icons ul li {
+    font-size: 18px;
+    margin: 63px 0px;
+    padding: 19px;
+  }
+  .clockIcon {
+    padding: 10px 14px !important;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .IconsList {
+    max-width: 40em;
+  }
+  .HowworksMain {
+    height: 770px;
+  }
+  .HowworksMain h1 {
+    font-size: 24px;
+  }
+  .HowworksMain h4 {
+    font-size: 18px;
+  }
+  .listItem p {
+    position: relative;
+    line-height: 18px;
+    font-size: 14px;
+  }
+  .listItem h2 {
+    font-size: 18px;
+  }
+  .list {
+    max-width: 70em;
+    margin: -5px -5px;
+  }
+  .list ul {
+    margin: 0px -29px;
+  }
+  .list ul li {
+    margin: 62px 25px;
+  }
+  .icons ul li {
+    font-size: 21px;
+    margin: 43px 0px;
+    padding: 19px 20px;
+  }
+  .clockIcon {
+    padding: 12px 16px !important;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .IconsList {
+    max-width: 40em;
+  }
+  .HowworksMain {
+    height: 770px;
+  }
+  .HowworksMain h1 {
+    font-size: 26px;
+  }
+  .HowworksMain h4 {
+    font-size: 20px;
+  }
+  .listItem p {
+    position: relative;
+    line-height: 18px;
+    font-size: 15px;
+  }
+  .listItem h2 {
+    font-size: 21px;
+  }
+  .list {
+    max-width: 70em;
+    margin: -7px -5px;
+  }
+  .list ul {
+    margin: 0px -31px;
+  }
+  .list ul li {
+    margin: 63px 25px;
+  }
+  .icons ul li {
+    font-size: 23px;
+    margin: 43px 0px;
+    padding: 23px 20px;
+  }
+  .clockIcon {
+    padding: 17px 20px !important;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .IconsList {
+    max-width: 50em;
+  }
+  .HowworksMain {
+    height: 770px;
+  }
+  .HowworksMain h1 {
+    font-size: 28px;
+  }
+  .HowworksMain h4 {
+    font-size: 22px;
+  }
+  .listItem p {
+    position: relative;
+    line-height: 18px;
+    font-size: 16px;
+  }
+  .listItem h2 {
+    font-size: 23px;
+  }
+  .list {
+    max-width: 70em;
+    margin: -15px -5px;
+  }
+  .list ul {
+    margin: 0px -31px;
+  }
+  .list ul li {
+    margin: 73px 25px;
+  }
+  .icons ul li {
+    font-size: 23px;
+    margin: 43px 0px;
+    padding: 23px 20px;
+  }
+  .clockIcon {
+    padding: 17px 20px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .IconsList {
+    max-width: 65em;
+  }
+  .HowworksMain {
+    height: 770px;
+  }
+  .HowworksMain h1 {
+    font-size: 33px;
+  }
+  .HowworksMain h4 {
+    font-size: 22px;
+  }
+  .list {
+    max-width: 70em;
+    margin: -24px -5px;
+  }
+  .list ul {
+    margin: 0px -31px;
+  }
+  .list ul li {
+    line-height: 5px;
+    margin: 90px 25px;
+  }
+  .listItem p {
+    line-height: 5px;
+    font-size: 16px;
+  }
+  .listItem h2 {
+    font-size: 23px;
+  }
+  .icons ul li {
+    font-size: 26px;
+    border-radius: 50px;
+    margin: 42px 0px;
+    padding: 22px 20px;
+  }
+  .clockIcon {
+    padding: 16px 20px !important;
+  }
 }

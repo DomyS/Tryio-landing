@@ -83,3 +83,14 @@
   letter-spacing: 0px;
   font-size: 14px;
 }
+
+/* responsive */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .registerMain h1 {
+    font-size: 25px;
+  }
+  .form {
+    width: 18em;
+  }
+}
